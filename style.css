@@ -22,7 +22,6 @@ body{
 
 .caixa-texto{
     width: 600px;
-    background-color: ##ef1b23;
 }
 
 .caixa-imagem{
@@ -33,7 +32,7 @@ body{
 }
 
 button{
-    background-color: #017143;
+    background-color: #ef1b23;
     color: #fff; /*cor do texto*/
     border: none;/*remover bordas*/
     padding: 10px;/*expande tamanho*/
@@ -46,7 +45,7 @@ h2{
 }
 
 span{
-    color: #017143;
+    color: #ef1b23;
     font-size: 70px;
     font-weight: 700;
 }
