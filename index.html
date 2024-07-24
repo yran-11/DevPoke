@@ -44,20 +44,31 @@
         let verde = document.querySelector(".verde")
         let amarelo = document.querySelector(".amarelo")
         let rosa = document.querySelector(".rosa")
+        let nome = document.querySelector(".nome")
+        let botao = document.querySelector(".botao")
 
         verde.addEventListener("click", ()=>{
             copogrande.src ="./img/img1.png"
             circulo.style.background ="#087243"
+            nome.innerHTML="Rayquaza"
+            nome.style.color ="#087243"
+            botao.style.background ="#087243"
         })
 
         amarelo.addEventListener("click", ()=>{
             copogrande.src ="./img/img2.png"
             circulo.style.background ="#f1fA8C"
+            nome.innerHTML="Raikou"
+            nome.style.color ="#f1fA8C"
+            botao.style.background ="#f1fA8C"
         })
 
         rosa.addEventListener("click", ()=>{
             copogrande.src ="./img/img3.png"
             circulo.style.background ="#eb7495"
+            nome.innerHTML="Palkia"
+            nome.style.color ="#eb7495"
+            botao.style.background ="#eb7495"
         })
     </script>
 
